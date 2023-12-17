@@ -6,6 +6,15 @@ Jolt: SNARKs for Virtual Machines via Lookups  [<a href="https://eprint.iacr.org
 <br> 
 <br> 
 
+Zombie: Middleboxes that Don’t Snoop  [<a href="https://eprint.iacr.org/2023/1022.pdf">eprint</a>] 
+<ul>
+  <li> Collin Zhang, Zachary DeStefano, <b> Arasu Arun </b>, Joseph Bonneau, Paul Grubbs, Michael Walfish </li>
+</ul>
+
+<br> 
+<br> 
+
+
 Riggs: Decentralized Sealed-Bid Auctions (ACM CCS 2023)  [<a href="https://eprint.iacr.org/2023/1336.pdf">eprint</a>] 
 <ul>
   <li> Nirvan Tyagi, <b> Arasu Arun </b>, Cody Freitag, Riady Wahby, Joseph Bonneau, David Mazières </li>
