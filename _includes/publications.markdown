@@ -6,7 +6,7 @@ Jolt: SNARKs for Virtual Machines via Lookups  [<a href="https://eprint.iacr.org
 <br> 
 <br> 
 
-Zombie: Middleboxes that Don’t Snoop  [<a href="https://eprint.iacr.org/2023/1022.pdf">eprint</a>] 
+Zombie: Middleboxes that Don’t Snoop (NSDI 2024)  [<a href="https://eprint.iacr.org/2023/1022.pdf">eprint</a>] 
 <ul>
   <li> Collin Zhang, Zachary DeStefano, <b> Arasu Arun </b>, Joseph Bonneau, Paul Grubbs, Michael Walfish </li>
 </ul>
