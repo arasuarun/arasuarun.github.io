@@ -1,0 +1,16 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.special-description {
+  background-color: rgba(0, 123, 255, 0.1); /* Light blue transparent background */
+  padding: 5px; /* Adjusted padding */
+  margin-top: 5px; /* Adjusted margin */
+  border: 1px solid rgba(0, 123, 255, 0.3); /* Light blue transparent border */
+  border-radius: 3px; /* Rounded corners */
+}
+
+.special-description p {
+  margin-bottom: 0; /* Remove bottom margin for paragraph */
+}

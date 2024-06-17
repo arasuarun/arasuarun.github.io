@@ -1,0 +1,24 @@
+- title: "Jolt"
+  talks:
+    - venue: "ZK Proofs 6"
+      date: "May 2024"
+      link: "https://www.youtube.com/watch?v=RySXjCsLgXk"
+
+- title: "Short-lived Proofs"
+  talks:
+    - venue: "COSIC Seminar, KU Leuven"
+      date: "April 2022"
+      link: "https://www.youtube.com/watch?v=U3f9SHUWo1c"
+
+- title: "Zero-knowledge Middleboxes"
+  talks:
+    - venue: "USENIX Security 2022"
+      date: "August 2022"
+      link: "https://www.youtube.com/watch?v=stRWfe3tMJQ"
+    - venue: "SDNS://2021 Workshop"
+      date: "August 2021"
+      link: "https://www.youtube.com/watch?v=ihFmYs3Bi_c&list=PLDlEgzZB7eyJ0_Y2U2Y3Vv5kjj7DmeBIM&index=10"
+
+
+
+      

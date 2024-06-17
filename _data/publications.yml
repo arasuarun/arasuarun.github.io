@@ -1,0 +1,39 @@
+- title: "Jolt: SNARKs for Virtual Machines via Lookups"
+  authors: "Arasu Arun, Srinath Setty, Justin Thaler"
+  venue: "Eurocrypt 2024"
+  link: "https://ia.cr/2023/1217"
+  special_description: >
+    We implemented Jolt as an open-source [repository](http://github.com/a16z/jolt). Blogs:
+    [Overview](https://a16zcrypto.com/posts/article/a-new-era-in-snark-design-releasing-jolt/), [Engineering](https://a16zcrypto.com/posts/article/building-jolt/)
+
+
+- title: "Zombie: Middleboxes that Don’t Snoop"
+  authors: "Collin Zhang, Zachary DeStefano, Arasu Arun, Joseph Bonneau, Paul Grubbs, Michael Walfish"
+  venue: "NSDI 2024"
+  link: "https://ia.cr/2023/1022"
+
+- title: "Riggs: Decentralized Sealed-Bid Auctions"
+  authors: "Nirvan Tyagi, Arasu Arun, Cody Freitag, Riad Wahby, Joseph Bonneau, David Mazièras"
+  venue: "CCS 2023"
+  link: "https://eprint.iacr.org/2023/1336"
+
+- title: "Bicorn: An optimistically efficient distributed randomness beacon"
+  authors: "Kevin Choi, Arasu Arun, Nirvan Tyagi, Joseph Bonneau"
+  venue: "Financial Cryptography 2023"
+  link: "https://ia.cr/2023/221"
+
+- title: "Dew: Transparent Constant-sized zkSNARKs"
+  authors: "Sriram Sridhar, Arasu Arun, Chaya Ganesh, Satya Lokam, Tushar Mopuri"
+  venue: "PKC 2023"
+  link: "https://ia.cr/2022/419"
+
+- title: "Short-lived Proofs and Signatures"
+  authors: "Arasu Arun, Joseph Bonneau, Jeremy Clark"
+  venue: "AsiaCrypt 2022"
+  link: "https://ia.cr/2022/190"
+
+- title: "Zero-knowledge Middleboxes"
+  authors: "Paul Grubbs, Arasu Arun, Ye Zhang, Joseph Bonneau, Michael Walfish"
+  venue: "USENIX Security 2022"
+  link: "https://ia.cr/2022/1022"
+  code: "https://github.com/pag-crypto/zkmbs"

@@ -1,0 +1,20 @@
+- institution: "a16z Crypto"
+  term: "Spring 2024"
+
+- institution: "Microsoft Research (Redmond)"
+  term: "Summer 2023"
+
+- institution: "a16z Crypto"
+  term: "Summer 2022"
+
+- institution: "Microsoft Research (Bangalore)"
+  term: "Summer 2020"
+
+
+# {% for internship in site.data.internships %}
+#   <p class="internship">
+#     <strong>{{ internship.institution }}</strong><br>
+#     {{ internship.term }}<br>
+#     {{ internship.description }}
+#   </p>
+# {% endfor %}
