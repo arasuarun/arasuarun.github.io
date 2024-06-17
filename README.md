@@ -1,22 +1,6 @@
-# schnerring.github.io
+# arasuarun.github.io
 
-My personal website, [schnerring.net](https://schnerring.net).
+My personal website: arasua.run. 
 
-## Local Development
+This repository is forked from Michael Schnerring's personal website, and uses his Hugo Gruvbox theme: [original repo](https://github.com/schnerring/schnerring.github.io). 
 
-Install npm dependencies:
-
-```shell
-npm ci
-```
-
-Run Hugo:
-
-```shell
-hugo server -D
-```
-
-## License
-
-- The repository is licensed under [MIT](./LICENSE)
-- The [`content/`](./content/) of the published website is licensed under [CC BY 4.0](./content/LICENSE)

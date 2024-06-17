@@ -1,6 +1,6 @@
 baseURL = "http://localhost"
-copyright = "© 2020 - 2023 Michael Schnerring"
-title = "Michael Schnerring"
+copyright = "© 2024 Arasu Arun"
+title = "Arasu Arun"
 #paginate = 10
 enableRobotsTXT = true
 enableGitInfo = true
@@ -28,20 +28,20 @@ enableGitInfo = true
 
 [params]
   # dark or light, defaults to light
-  defaultTheme = "dark"
+  defaultTheme = "light"
   # gray red green yellow blue purple aqua orange, defaults to blue
   themeColor = "aqua"
   # soft medium hard, defaults to medium
   themeContrast = "hard"
-  author = "Michael Schnerring"
-  subtitle = "Software Engineer"
-  description = "Michael Schnerring is a coder and computer enthusiast."
+  author = "Arasu Arun"
+  subtitle = "PhD Student"
+  description = "Arasu Arun is a PhD student at NYU working in cryptography."
 
   # Plausible auth secret to enable public dashboard
   plausibleAuth = "hDl_ZT_txy4BS608-H3Y0"
 
   [params.logo]
-    text = "schnerring.net"
+    text = "arasua.run"
     url = "/"
 
   [params.prism]
@@ -99,15 +99,15 @@ enableGitInfo = true
     formatString = "mailto:?subject={title}&body={url}"
 
 [menu]
+  # [[menu.main]]
+  #  identifier = "blog"
+  #  name = "Blog"
+  #  url = "/blog"
+  #  weight = 10
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog"
-    weight = 10
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projects"
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications"
     weight = 20
   #[[menu.main]]
   #  identifier = "cv"
@@ -119,11 +119,11 @@ enableGitInfo = true
     name = "About"
     url = "/about"
     weight = 40
-  [[menu.main]]
-    identifier = "stats"
-    name = "Stats"
-    url = "/stats"
-    weight = 50
+  # [[menu.main]]
+  #  identifier = "stats"
+  #  name = "Stats"
+  #  url = "/stats"
+  #  weight = 50
 
 [languages]
   [languages.en]
@@ -131,8 +131,3 @@ enableGitInfo = true
     weight = 10
     [languages.en.params.jsonResume]
       present = "present"
-  [languages.de]
-    languageName = "Deutsch"
-    weight = 20
-    [languages.de.params.jsonResume]
-      present = "heute"
