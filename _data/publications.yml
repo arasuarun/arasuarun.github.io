@@ -35,5 +35,5 @@
 - title: "Zero-knowledge Middleboxes"
   authors: "Paul Grubbs, Arasu Arun, Ye Zhang, Joseph Bonneau, Michael Walfish"
   venue: "USENIX Security 2022"
-  link: "https://ia.cr/2022/1022"
+  link: "https://ia.cr/2021/1022"
   code: "https://github.com/pag-crypto/zkmbs"
