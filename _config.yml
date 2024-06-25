@@ -21,7 +21,7 @@
 title: Arasu Arun
 email: arasu@nyu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-arasu at nyu.edu 
+At the Gateway Arch. arasu@nyu.edu 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://arasua.run" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: arasuarun
