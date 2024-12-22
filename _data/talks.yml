@@ -3,6 +3,9 @@
     - venue: "ZK Proofs 6"
       date: "May 2024"
       link: "https://www.youtube.com/watch?v=RySXjCsLgXk"
+    - venue: "Eurocrypt 2024"
+      date: "May 2024"
+      link: "https://youtu.be/_WsCQc9Elcg?si=kmP-ZDTaE_ISOepx&t=1124"
 
 - title: "Short-lived Proofs"
   talks:

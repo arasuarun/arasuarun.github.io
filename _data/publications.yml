@@ -1,3 +1,9 @@
+- title: "Nebula: Efficient read-write memory and switchboard circuits for folding schemes"
+  authors: "Arasu Arun, Srinath Setty"
+  venue: "(under submission)"
+  link: "https://ia.cr/2024/1605"
+
+
 - title: "Jolt: SNARKs for Virtual Machines via Lookups"
   authors: "Arasu Arun, Srinath Setty, Justin Thaler"
   venue: "Eurocrypt 2024"

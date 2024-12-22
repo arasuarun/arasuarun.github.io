@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-I'm a fourth-year PhD student at New York University advised by Joseph Bonneau. 
+I'm a fifth-year PhD student at New York University. I'm fortunate to be advised by [Joseph Bonneau](https://jbonneau.com/). 
 
-My research focuses on applying zero-knowledge proofs to real-world systems. I'm broadly interested in applied cryptography, privacy, and blockchains.
+My PhD research focuses on building efficient zero-knowledge proofs to verify real-world systems. I'm broadly interested in applied cryptography, decentralization, and privacy.
 
 # Publications
 
