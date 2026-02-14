@@ -1,8 +1,12 @@
+- title: "Verde: Verification via Refereed Delegation for Machine Learning Programs"
+  authors: "Arasu Arun, Adam St. Arnaud, Alexey Titov, Brian Wilcox, Viktor Kolobaric, Marc Brinkmann, Oguzhan Ersoy, Ben Fielding, Joseph Bonneau"
+  venue: "(under submission)"
+  link: "https://arxiv.org/abs/2502.19405"
+
 - title: "Nebula: Efficient read-write memory and switchboard circuits for folding schemes"
   authors: "Arasu Arun, Srinath Setty"
-  venue: "(under submission)"
+  venue: "IEEE S&P 2026"
   link: "https://ia.cr/2024/1605"
-
 
 - title: "Jolt: SNARKs for Virtual Machines via Lookups"
   authors: "Arasu Arun, Srinath Setty, Justin Thaler"
@@ -11,7 +15,6 @@
   special_description: >
     We implemented Jolt as an open-source [repository](http://github.com/a16z/jolt). Blogs:
     [Overview](https://a16zcrypto.com/posts/article/a-new-era-in-snark-design-releasing-jolt/), [Engineering](https://a16zcrypto.com/posts/article/building-jolt/)
-
 
 - title: "Zombie: Middleboxes that Don’t Snoop"
   authors: "Collin Zhang, Zachary DeStefano, Arasu Arun, Joseph Bonneau, Paul Grubbs, Michael Walfish"

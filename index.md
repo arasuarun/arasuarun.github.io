@@ -3,9 +3,13 @@ layout: default
 title: Home
 ---
 
-I'm a fifth-year PhD student at New York University. I'm fortunate to be advised by [Joseph Bonneau](https://jbonneau.com/). 
+I recently finished my PhD at New York University, where I was 
+fortunate to be advised by [Joseph Bonneau](https://jbonneau.com/). 
 
-My PhD research focuses on building efficient zero-knowledge proofs to verify real-world systems. I'm broadly interested in applied cryptography, decentralization, and privacy.
+My PhD work focused on building efficient zero-knowledge proofs to verify real-world systems.
+My most notable project is the [Jolt](https://github.com/a16z/jolt) zero-knowledge virtual machine.
+
+I now research verifiable computing and its applications to machine learning at Gensyn AI. 
 
 # Publications
 
