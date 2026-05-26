@@ -1,20 +1,30 @@
-- title: "Verde: Verification via Refereed Delegation for Machine Learning Programs"
-  authors: "Arasu Arun, Adam St. Arnaud, Alexey Titov, Brian Wilcox, Viktor Kolobaric, Marc Brinkmann, Oguzhan Ersoy, Ben Fielding, Joseph Bonneau"
-  venue: "(under submission)"
-  link: "https://arxiv.org/abs/2502.19405"
-
 - title: "Nebula: Efficient read-write memory and switchboard circuits for folding schemes"
   authors: "Arasu Arun, Srinath Setty"
   venue: "IEEE S&P 2026"
+  venue_award: "Distinguished Paper Award"
   link: "https://ia.cr/2024/1605"
+
+- title: "Verde: Verification via Refereed Delegation for Machine Learning Programs"
+  authors: "Arasu Arun, Adam St. Arnaud, Alexey Titov, Brian Wilcox, Viktor Kolobaric, Marc Brinkmann, Oguzhan Ersoy, Ben Fielding, Joseph Bonneau"
+  venue: "Presented at the IEEE S&P 2026 Poster Session"
+  venue_award: "Best Poster Award"
+  # venue_award_link: "https://sp2026.ieee-security.org/awards_posters.html"
+  link: "https://arxiv.org/abs/2502.19405"
 
 - title: "Jolt: SNARKs for Virtual Machines via Lookups"
   authors: "Arasu Arun, Srinath Setty, Justin Thaler"
   venue: "Eurocrypt 2024"
   link: "https://ia.cr/2023/1217"
-  special_description: >
-    We implemented Jolt as an open-source [repository](http://github.com/a16z/jolt). Blogs:
-    [Overview](https://a16zcrypto.com/posts/article/a-new-era-in-snark-design-releasing-jolt/), [Engineering](https://a16zcrypto.com/posts/article/building-jolt/)
+  special_description: |
+    Jolt is the leading open-source [zkVM](http://github.com/a16z/jolt). 
+
+    Blogs: [Overview](https://a16zcrypto.com/posts/article/a-new-era-in-snark-design-releasing-jolt/), [Engineering](https://a16zcrypto.com/posts/article/building-jolt/), 
+
+    Talks: (Some are linked below)
+
+    Misc: [Tweet](https://x.com/pmarca/status/2021431424872743411)
+
+  #We implemented Jolt as an open-source [repository](http://github.com/a16z/jolt). Blogs:
 
 - title: "Zombie: Middleboxes that Don’t Snoop"
   authors: "Collin Zhang, Zachary DeStefano, Arasu Arun, Joseph Bonneau, Paul Grubbs, Michael Walfish"

@@ -24,7 +24,7 @@ I now research verifiable computing and its applications to machine learning at 
         {{ author }}{% if forloop.last == false %},{% endif %}
       {% endif %}
     {% endfor %}<br>
-    <em>{{ publication.venue }}</em>
+    <em>{{ publication.venue }}</em>{% if publication.venue_award %} {% if publication.venue_award_link %}<a href="{{ publication.venue_award_link }}" class="venue-award">({{ publication.venue_award }})</a>{% else %}<span class="venue-award">({{ publication.venue_award }})</span>{% endif %}{% endif %}
     {% if publication.code %}
       <br><a href="{{ publication.code }}">Code</a>
     {% endif %}
