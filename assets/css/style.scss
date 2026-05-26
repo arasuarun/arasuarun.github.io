@@ -3,6 +3,76 @@
 
 @import "{{ site.theme }}";
 
+body {
+  font-size: 14px;
+}
+
+/* Sidebar: title above photo */
+.sidebar header {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar header h1 {
+  order: -1;
+}
+
+/* Rectangular photo */
+.img-circle {
+  border-radius: 4px !important;
+  width: 100%;
+}
+
+/* Black title instead of accent color */
+.sidebar h1 a {
+  color: var(--body-text-color) !important;
+  text-decoration: none;
+}
+
+/* Hide email line in sidebar (already shown via social icons) */
+.sidebar .addr {
+  display: none;
+}
+
+/* Social icons: horizontal row */
+.link-wrapper .link {
+  list-style: none !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 20px !important;
+  margin-top: 8px !important;
+}
+.link-wrapper .link li + li {
+  margin-top: 0 !important;
+}
+.link-wrapper .link li a {
+  text-decoration: none;
+}
+.link-wrapper .link li a i {
+  font-size: 31px !important;
+}
+.link-wrapper .link li:nth-child(1) a i { color: #555; }
+.link-wrapper .link li:nth-child(2) a i { color: #1DA1F2; }
+.link-wrapper .link li:nth-child(3) a i { color: #333; }
+
+/* Sidebar 50% wider: 185px → 278px */
+.sidebar {
+  width: 278px !important;
+}
+section {
+  width: 560px !important;
+}
+.wrapper {
+  width: 900px !important;
+}
+
+/* Divider line below photo */
+.img-circle {
+  margin-bottom: 14px !important;
+  padding-bottom: 14px !important;
+  border-bottom: 1px solid var(--border-color, #ddd) !important;
+}
+
 $olive: #87A96B;
 
 .special-description {

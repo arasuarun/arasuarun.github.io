@@ -1,0 +1,61 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+<style>
+  #theme-toggle {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 9999;
+    background: var(--body-background-color, #fff);
+    border: 1px solid var(--border-color, #ccc);
+    border-radius: 20px;
+    padding: 5px 14px;
+    cursor: pointer;
+    font-size: 15px;
+    color: var(--body-text-color, #333);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  }
+  #theme-toggle:hover { opacity: 0.8; }
+</style>
+<script>
+  /* Swap color scheme CSS before first paint to avoid flash */
+  (function() {
+    var saved = localStorage.getItem('theme');
+    if (!saved) return;
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].href && links[i].href.indexOf('colors-') !== -1) {
+        links[i].href = links[i].href.replace(/colors-[^.?]+/, 'colors-' + saved);
+        break;
+      }
+    }
+  })();
+
+  document.addEventListener('DOMContentLoaded', function() {
+    function getColorLink() {
+      var links = document.querySelectorAll('link[rel="stylesheet"]');
+      for (var i = 0; i < links.length; i++) {
+        if (links[i].href && links[i].href.indexOf('colors-') !== -1) return links[i];
+      }
+      return null;
+    }
+
+    function currentTheme() {
+      var link = getColorLink();
+      return link && link.href.indexOf('colors-dark') !== -1 ? 'dark' : 'light';
+    }
+
+    var btn = document.createElement('button');
+    btn.id = 'theme-toggle';
+    btn.setAttribute('aria-label', 'Toggle dark/light mode');
+    btn.innerHTML = currentTheme() === 'dark' ? '&#9728;' : '&#9790;';
+    document.body.appendChild(btn);
+
+    btn.addEventListener('click', function() {
+      var next = currentTheme() === 'dark' ? 'light' : 'dark';
+      var link = getColorLink();
+      if (link) link.href = link.href.replace(/colors-[^.?]+/, 'colors-' + next);
+      localStorage.setItem('theme', next);
+      btn.innerHTML = next === 'dark' ? '&#9728;' : '&#9790;';
+    });
+  });
+</script>
