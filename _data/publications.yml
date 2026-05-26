@@ -16,7 +16,7 @@
   venue: "Eurocrypt 2024"
   link: "https://ia.cr/2023/1217"
   special_description: |
-    Jolt is the leading open-source [zkVM](http://github.com/a16z/jolt). 
+    Jolt is a popular open-source zkVM [library](http://github.com/a16z/jolt). 
 
     Blogs: [Overview](https://a16zcrypto.com/posts/article/a-new-era-in-snark-design-releasing-jolt/), [Engineering](https://a16zcrypto.com/posts/article/building-jolt/), 
 
