@@ -7,19 +7,16 @@ body {
   font-size: 14px;
 }
 
-/* Sidebar: title above photo */
-.sidebar header {
-  display: flex;
-  flex-direction: column;
+/* Mobile photo: show in content, hide on desktop (sidebar handles it there) */
+.mobile-photo {
+  display: block;
+  width: 60%;
+  max-width: 280px;
+  border-radius: 4px;
+  margin: 16px 0 24px 0;
 }
-.sidebar header h1 {
-  order: -1;
-}
-
-/* Rectangular photo */
-.img-circle {
-  border-radius: 4px !important;
-  width: 100%;
+@media screen and (min-width: 961px) {
+  .mobile-photo { display: none; }
 }
 
 /* Black title instead of accent color */
@@ -28,23 +25,12 @@ body {
   text-decoration: none;
 }
 
-/* Hide email line in sidebar (already shown via social icons) */
+/* Hide redundant email line in sidebar */
 .sidebar .addr {
   display: none;
 }
 
-/* Social icons: horizontal row */
-.link-wrapper .link {
-  list-style: none !important;
-  padding: 0 !important;
-  display: flex !important;
-  flex-direction: row !important;
-  gap: 20px !important;
-  margin-top: 8px !important;
-}
-.link-wrapper .link li + li {
-  margin-top: 0 !important;
-}
+/* Social icons: size and color */
 .link-wrapper .link li a {
   text-decoration: none;
 }
@@ -55,22 +41,49 @@ body {
 .link-wrapper .link li:nth-child(2) a i { color: #1DA1F2; }
 .link-wrapper .link li:nth-child(3) a i { color: #333; }
 
-/* Sidebar 50% wider: 185px → 278px */
-.sidebar {
-  width: 278px !important;
-}
-section {
-  width: 560px !important;
-}
-.wrapper {
-  width: 900px !important;
-}
+/* Desktop-only layout overrides (don't break mobile responsive CSS) */
+@media screen and (min-width: 961px) {
+  /* Sidebar: title above photo */
+  .sidebar header {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar header h1 {
+    order: -1;
+  }
 
-/* Divider line below photo */
-.img-circle {
-  margin-bottom: 14px !important;
-  padding-bottom: 14px !important;
-  border-bottom: 1px solid var(--border-color, #ddd) !important;
+  /* Rectangular photo with divider */
+  .img-circle {
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border-color, #ddd);
+  }
+
+  /* Social icons: horizontal row */
+  .link-wrapper .link {
+    list-style: none !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 20px !important;
+    margin-top: 8px !important;
+  }
+  .link-wrapper .link li + li {
+    margin-top: 0 !important;
+  }
+
+  /* Sidebar 50% wider: 185px → 278px */
+  .sidebar {
+    width: 278px !important;
+  }
+  section {
+    width: 560px !important;
+  }
+  .wrapper {
+    width: 900px !important;
+  }
 }
 
 $olive: #87A96B;

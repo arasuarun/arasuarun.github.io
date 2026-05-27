@@ -11,6 +11,8 @@ My most notable project is the [Jolt](https://github.com/a16z/jolt) zero-knowled
 
 I now research verifiable computing and its applications to machine learning at Gensyn AI. 
 
+<img src="/assets/img/fall_colors.jpeg" alt="Arasu Arun" class="mobile-photo">
+
 # Publications
 
 {% for publication in site.data.publications %}
