@@ -86,13 +86,13 @@ body {
   }
 }
 
-$olive: #87A96B;
+$green: #138808; // india green;
 
 .special-description {
-  background-color: rgba($olive, 0.1);
+  background-color: rgba($green, 0.1);
   padding: 5px;
   margin-top: 5px;
-  border: 1px solid rgba($olive, 0.28);
+  border: 1px solid rgba($green, 0.28);
   border-radius: 3px;
 }
 
@@ -103,7 +103,7 @@ $olive: #87A96B;
 .venue-award {
   font-style: normal;
   font-weight: bold;
-  color: $olive;
+  color: $green;
   text-decoration: none;
 }
 
