@@ -56,3 +56,8 @@
   venue: "USENIX Security 2022"
   link: "https://ia.cr/2021/1022"
   code: "https://github.com/pag-crypto/zkmbs"
+  special_description: |
+    Code available [here](https://github.com/pag-crypto/zkmbs).
+
+    [Article](https://blog.apnic.net/2022/07/08/unpacking-zero-knowledge-middleboxes/) and [podcast](https://packetpushers.net/podcast/heavy-networking-648-using-zero-knowledge-middleboxes-to-enforce-policy-on-encrypted-traffic/) from my co-author Paul. 
+
